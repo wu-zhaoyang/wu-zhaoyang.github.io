@@ -46,7 +46,7 @@ subtitle:
     smartBackspace: false       # 智能退格，只删除不同的部分
   text: ""
 
-banner: "images/banner.webp"
+banner: "images/banner.png"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
