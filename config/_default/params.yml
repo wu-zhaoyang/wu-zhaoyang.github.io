@@ -46,7 +46,7 @@ subtitle:
     smartBackspace: false       # 智能退格，只删除不同的部分
   text: ""
 
-banner: "images/banner.png"
+banner: "images/banner-hd.png"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -58,7 +58,7 @@ banner_srcset:
       media: "(max-width: 479px)"
     - src: "images/banner-800w.webp"
       media: "(max-width: 799px)"
-    - src: "images/banner.png"
+    - src: "images/banner-hd.png"
       media: "(min-width: 800px)"
 
 avatar: "avatar.webp"
@@ -687,6 +687,11 @@ injector:
         font-family: var(--font-zh) !important;
         font-weight: 400 !important;
         font-synthesis: none;
+      }
+      #header img {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center top;
       }
       .sidebar-menu {
         display: flex;
