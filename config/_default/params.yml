@@ -58,7 +58,7 @@ banner_srcset:
       media: "(max-width: 479px)"
     - src: "images/banner-800w.webp"
       media: "(max-width: 799px)"
-    - src: "images/banner.webp"
+    - src: "images/banner.png"
       media: "(min-width: 800px)"
 
 avatar: "avatar.webp"
