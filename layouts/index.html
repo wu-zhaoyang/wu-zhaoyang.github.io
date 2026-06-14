@@ -1,0 +1,9 @@
+{{- define "main" -}}
+<article class="h-entry article">
+  <div class="article-inner">
+    <div class="e-content article-entry" itemprop="articleBody">
+      {{- .Content | safeHTML -}}
+    </div>
+  </div>
+</article>
+{{- end -}}

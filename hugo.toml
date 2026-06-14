@@ -1,0 +1,21 @@
+baseURL = 'https://wu-zhaoyang.github.io/'
+locale = 'zh-CN'
+defaultContentLanguage = 'zh-CN'
+title = '我的个人主页'
+theme = 'reimu'
+
+[languages]
+  [languages.zh-CN]
+    label = '简体中文'
+    weight = 1
+    hasCJKLanguage = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false

@@ -1,0 +1,65 @@
+{{- define "main" -}}
+<article class="h-entry article showcase-page">
+  <div class="article-inner">
+    <div class="e-content article-entry" itemprop="articleBody">
+      {{- .Content | safeHTML -}}
+    </div>
+  </div>
+</article>
+<script>
+(function () {
+  function initShowcaseSlider() {
+    var slider = document.querySelector(".showcase-slider");
+    if (!slider || slider.dataset.initialized) return;
+    slider.dataset.initialized = "1";
+
+    var slides = slider.querySelectorAll(".showcase-slide");
+    var dots = slider.querySelectorAll(".showcase-dot");
+    var nextBtn = slider.querySelector(".showcase-next");
+    if (!slides.length) return;
+
+    var index = 0;
+    var timer = null;
+
+    function show(i) {
+      index = (i + slides.length) % slides.length;
+      slides.forEach(function (s, n) {
+        s.classList.toggle("is-active", n === index);
+      });
+      dots.forEach(function (d, n) {
+        d.classList.toggle("is-active", n === index);
+      });
+    }
+
+    function startAuto() {
+      if (timer) clearInterval(timer);
+      timer = setInterval(function () {
+        show(index + 1);
+      }, 5000);
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener("click", function () {
+        show(index + 1);
+        startAuto();
+      });
+    }
+
+    dots.forEach(function (dot) {
+      dot.addEventListener("click", function () {
+        show(Number(dot.getAttribute("data-index")));
+        startAuto();
+      });
+    });
+
+    startAuto();
+  }
+
+  if (document.readyState === "complete") {
+    initShowcaseSlider();
+  } else {
+    window.addEventListener("load", initShowcaseSlider);
+  }
+})();
+</script>
+{{- end -}}

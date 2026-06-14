@@ -1,0 +1,133 @@
+entries:
+  - year: 2024
+    items:
+      - title: "多模态远距离拾音"
+        authors:
+          - "李皓"
+          - name: "伍昭阳"
+            bold: true
+          - "吴为"
+          - name: "吴仕超"
+            suffix: "*"
+        authors_note: "（* 通讯作者）"
+        venue: "第三届「声华杯」声学技术大赛"
+        thumbnail: "/images/researches/multimodal-pickup-result.png"
+        thumbnail_alt: "多模态远距离拾音增强效果对比"
+        description:
+          - "针对音视频通话、录像等场景，基于真实手机三麦克原始输入信息："
+          - "1) 室内拍摄演讲人场景，存在着混响、噪声、干扰等，提升目标人声的清晰度；"
+          - "2) 室外远距离录像场景，存在环境噪声、风声等，对视频内特定人语音进行增强，可懂度提升。"
+        links:
+          - label: "视频"
+            url: "https://drive.google.com/file/d/10qrzbpZH-gIcGPCvOq6ghps91zt9-ec8/view?t=33.94"
+          - label: "代码"
+            url: "https://github.com/LHao02/The-2rd--Shenghua-Cup-Acoustic-Technology-Competition"
+  - year: 2025
+    items:
+      - title: "DIGRD: Disguised Inertial Gait Recognition Dataset and Method"
+        authors:
+          - "李皓"
+          - name: "伍昭阳"
+            bold: true
+          - "吴为"
+          - name: "吴仕超"
+            suffix: "*"
+        authors_note: "（* 通讯作者）"
+        venue: "2025 IEEE 8th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)"
+        thumbnail: "/images/researches/digrd.png"
+        thumbnail_alt: "DIGRD disguised inertial gait recognition dataset"
+        description:
+          - "This paper introduces DIGRD (Disguised Inertial Gait Recognition Dataset), the first benchmark dataset explicitly designed to study disguised inertial gait recognition. Constructed in a controlled indoor building, DIGRD contains 61,346 gait events from 40 subjects across 4 clothing-footwear covariates. Experimental results demonstrate that both clothing and footwear changes significantly degrade recognition performance, with footwear alterations exerting a stronger deceptive effect (84.85% vs. 88.78%)."
+        links:
+          - label: "论文"
+            url: "https://ieeexplore.ieee.org/abstract/document/11412746"
+          - label: "海报"
+            url: "https://drive.google.com/drive/folders/1NSZzVOyahgUGvpG8jvh4XqMnF_DauzNr?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+          - label: "数据集"
+            url: "https://github.com/wu-zhaoyang/DIGRD-Disguised-Inertial-Gait-Recognition-Dataset-and-Method"
+      - title: "视-回声融合三维场景空间重构研究"
+        authors:
+          - "李皓"
+          - name: "伍昭阳"
+            bold: true
+          - "刘博文"
+          - "蒋艳"
+          - "张玳宝"
+        venue: "西南科技大学创新基金项目"
+        badge: "项目编号：JZ25-114"
+        thumbnail: "/images/researches/visual-echo-fund.png"
+        thumbnail_alt: "主动声环境空间结构感知示意图"
+        description:
+          - "本项目提出研究一种融合视觉与声学回声信息的室内环境轮廓估计方法与系统。具体而言，面向具身智能环境机器人的环境轮廓重建，本项目针对现有室内轮廓重建方法缺陷，并设计视听数据采集相关机械结构与硬件系统，实现主动声下对复杂室内轮廓进行重构，突破传统技术在多强径效应和非视距环境感知的瓶颈问题，进一步提升室内空间感知技术的精度和鲁棒性。"
+        links:
+          - label: "视频"
+            url: "https://drive.google.com/drive/folders/1YWE75J40NNCbeUr9UrJsOdnOnj9w1Zat?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+          - label: "PPT"
+            url: "https://docs.google.com/presentation/d/1eeZQE_DQ_xYGzCEnMYkgt5AwccvNwk2O/edit?usp=drive_web&ouid=117307078141811610871&rtpof=true"
+          - label: "申报书"
+            url: "https://drive.google.com/drive/folders/1YWE75J40NNCbeUr9UrJsOdnOnj9w1Zat?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+      - title: "视-回声融合三维场景空间重构研究"
+        authors:
+          - "吴仕超"
+          - "刘博文"
+          - name: "伍昭阳"
+            bold: true
+          - "李皓"
+          - "蒋艳"
+          - "吴为"
+          - "张华"
+        venue: "一种沉浸式三维助盲导航与交互的方法及系统"
+        badge: "专利号：ZL202511275326.X"
+        thumbnail: "/images/researches/visual-echo-3d.png"
+        thumbnail_alt: "沉浸式三维助盲导航与交互系统示意图"
+        description:
+          - "本发明公开了一种沉浸式三维助盲导航与交互的方法及系统，方法包括以下步骤："
+          - "S1、获取激光雷达点云数据和视觉图像，通过改进的迭代最近点算法进行视觉图像-激光雷达点云配准，生成融合后的点云；"
+          - "S2、根据融合后的点云通过八叉树地图建模，生成三维环境地图；"
+          - "S3、获取 IMU 数据，估计用户的位姿；"
+          - "S4、根据用户的位姿和三维环境地图规划导航路径，协同引导用户按照导航路径行走。"
+          - "本发明采用 ICPS 算法进行视觉-轻量化激光雷达点云配准，基于用户确定的全局目标点，采用八叉树地图动态建模环境，结合用户当前位置，并基于多目标优化函数规划一条可安全通过所建模三维环境、并到达导航目标点的导航路径。"
+        links:
+          - label: "专利证书"
+            url: "https://drive.google.com/drive/folders/1kRKe9WEjE-bLHxicdLQUVm1DQ5ZISgUt?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+          - label: "专利地址"
+            url: "https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui"
+  - year: 2026
+    items:
+      - title: "MS-LGNet: Multi-scale Local-Global Temporal Network for Disguised Inertial Gait Recognition with Domain Adaptation"
+        authors:
+          - "李皓"
+          - name: "吴仕超"
+            suffix: "*"
+          - name: "伍昭阳"
+            bold: true
+          - "刘梦妍"
+          - "刘誉稀"
+        authors_note: "（* 通讯作者）"
+        venue: "Pattern Analysis and Applications · Under review · 2026"
+        thumbnail: "/images/researches/ms-lgnet.png"
+        thumbnail_alt: "MS-LGNet t-SNE feature visualization on DIGRD dataset"
+        description:
+          - "This paper introduces MS-LGNet, a novel method that integrates multi-scale local temporal modeling with global temporal dynamic modeling and uses domain-adversarial training for cross-domain alignment to improve inertial gait-based pedestrian recognition under covariate (disguise) perturbations. On the DIGRD disguised inertial gait recognition dataset, MS-LGNet increases the classification accuracy by 5.83% and 5.98% under the clothing and shoe-type covariates, respectively."
+        links:
+          - label: "论文"
+            url: "https://drive.google.com/drive/folders/1-VkL-CLmNBczqkLH9sXndn53VN3GEN42?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+          - label: "代码"
+            url: "https://github.com/LHao02/MS-LGNet"
+      - title: "Power System Fault Detection and Localization Using a Dual-Path Spatio-Temporal Multi-Task Graph Convolutional Network"
+        authors:
+          - name: "伍昭阳"
+            bold: true
+          - "石繁荣"
+          - "李皓"
+          - name: "冉莉莉"
+            suffix: "*"
+        authors_note: "（* 通讯作者）"
+        venue: "Electronics · Under review · 2026"
+        thumbnail: "/images/researches/st-mtgcn.png"
+        thumbnail_alt: "Sparse PMU-based fault detection and topology localization framework"
+        description:
+          - "This paper combines DQN-CA for sparse PMU placement with ST-MTGCN, a dual-path spatio-temporal multi-task graph network for joint fault type recognition and topology localization. On the IEEE 39-bus system (OPT13), it achieves 99.68% fault-type accuracy, 89.94% localization accuracy, and 88.62% on 185 joint classes."
+        links:
+          - label: "论文"
+            url: "https://drive.google.com/drive/folders/1QeMChxcboV9bVTPDxPZh6I0U2c-PLRVs?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
